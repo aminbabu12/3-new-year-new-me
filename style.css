@@ -109,13 +109,13 @@
 
 /* plan section */
 
-.section-title {
+.main-title {
     text-align: center;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    color: #151414;
+    color: black;
 }
 
 .plan-container {
@@ -141,7 +141,7 @@
 .goal-content {
     display: flex;
     gap: 24px;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 .goal .title {
@@ -166,4 +166,57 @@
 .goal .description {
     color: black;
     
+}
+
+/* contact style */
+
+.contact{
+    display: flex;
+    gap: 200px;
+    background: #151414; 
+    padding: 130px 200px;
+}
+.section-title{
+    color: #F8F8F8;
+    font-weight: 700;
+font-size: 45px;
+}
+
+.sec-des{
+    color: #FFFFFF;
+
+}
+
+.contact .section-title{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.input{
+    
+    border-radius: 5px;
+width: 325px;
+height: 32px;
+}
+.second-button{
+    background: #005FAC;
+border-radius: 8px;
+width: 170.11px;
+height: 64px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 20px;
+border: 0;
+
+}
+
+.contact .input{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact a{
+    text-decoration: none;
 }
