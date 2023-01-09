@@ -57,6 +57,7 @@
 
 .about-section {
    display: flex;
+   justify-content: center;
 width: 1072px;
 height: 723.3px;
 
@@ -104,4 +105,32 @@ height: 723.3px;
     left: 862px;
     top: 1416px;
 
+}
+
+/* plan section */
+
+.section-title{
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-container{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    margin: 30px 330px;
+}
+
+.plan{
+   
+    padding: 30px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
 }
