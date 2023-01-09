@@ -56,15 +56,15 @@
 /* about section */
 
 .about-section {
-   display: flex;
-   justify-content: center;
-width: 1072px;
-height: 723.3px;
+    display: flex;
+    justify-content: center;
+    width: 1072px;
+    height: 723.3px;
 
 
 }
 
-.img{
+.img {
     margin-right: 20px;
 }
 
@@ -109,7 +109,7 @@ height: 723.3px;
 
 /* plan section */
 
-.section-title{
+.section-title {
     text-align: center;
     font-family: 'Work Sans';
     font-style: normal;
@@ -118,19 +118,52 @@ height: 723.3px;
     color: #151414;
 }
 
-.plan-container{
+.plan-container {
     display: flex;
     gap: 24px;
     text-align: center;
-    margin: 30px 330px;
+    margin: 0px 330px;
 }
 
-.plan{
-   
+.plan {
+
     padding: 30px;
 }
-.plan-title{
+
+.plan-title {
     font-weight: 700;
     font-size: 20px;
     color: #151414;
+}
+
+/* extra contant */
+
+.goal-content {
+    display: flex;
+    gap: 24px;
+    margin-left: 250px;
+}
+
+.goal .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+   margin-bottom: 10px;
+}
+
+.goal .sub-title {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.goal-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.goal .description {
+    color: black;
+    
 }
